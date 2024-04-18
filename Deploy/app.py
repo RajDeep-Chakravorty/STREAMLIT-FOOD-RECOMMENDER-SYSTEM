@@ -19,8 +19,8 @@ cuisine = st.selectbox("Choose your favourite!", ['Healthy Food', 'Snack', 'Dess
 st.subheader("How well do you want the dish to be?")  #RATING
 val = st.slider("from poor to the best!", 0, 10)
 
-food_url = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/blob/main/Input/food.csv"
-ratings_url = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/blob/main/Input/ratings.csv"
+food_url = "https://raw.githubusercontent.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/main/Input/food.csv"
+ratings_url = "https://raw.githubusercontent.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/main/Input/ratings.csv"
 
 food = pd.read_csv(food_url)
 ratings = pd.read_csv(ratings_url)
