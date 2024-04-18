@@ -6,13 +6,13 @@ from sklearn.neighbors import NearestNeighbors
 
 
 # Define the content for the left sidebar
-left_sidebar_content = st.sidebar.container()
+left_sidebar_content = st.sidebar()
 with left_sidebar_content:
     st.image("https://images.squarespace-cdn.com/content/v1/5e317990eb18e50e8fad59fb/1605645564491-JF40BQK8CK6IFFK5ZIVQ/SideBar-11.jpg")
     # Add your left sidebar content here
 
 # Define the content for the right sidebar
-right_sidebar_content = st.sidebar.container()
+right_sidebar_content = st.sidebar()
 with right_sidebar_content:
     st.image("https://images.squarespace-cdn.com/content/v1/5e317990eb18e50e8fad59fb/1605645564491-JF40BQK8CK6IFFK5ZIVQ/SideBar-11.jpg")
     # Add your right sidebar content here
