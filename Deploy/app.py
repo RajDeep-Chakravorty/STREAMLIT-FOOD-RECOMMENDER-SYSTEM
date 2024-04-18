@@ -7,7 +7,7 @@ header_image = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDE
 st.image(header_image, use_column_width=True)
 st.title("Food Recommendation System")
 st.text("Let us help you with ordering")
-st.image("https://raw.githubusercontent.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/blob/main/Deploy/foood.jpg")
+st.image("https://github.com//RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/blob/main/Deploy/foood.jpg")
 
 st.subheader("Whats your preference?")
 vegn = st.radio("Vegetables or none!", ["veg", "non-veg"], index=1) 
@@ -19,8 +19,8 @@ cuisine = st.selectbox("Choose your favourite!", ['Healthy Food', 'Snack', 'Dess
 st.subheader("How well do you want the dish to be?")  #RATING
 val = st.slider("from poor to the best!", 0, 10)
 
-food_url = "https://raw.githubusercontent.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/main/input/food.csv"
-ratings_url = "https://raw.githubusercontent.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/main/input/ratings.csv"
+food_url = "https://github.com//RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/main/input/food.csv"
+ratings_url = "https://github.com//RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/main/input/ratings.csv"
 
 food = pd.read_csv(food_url)
 ratings = pd.read_csv(ratings_url)
