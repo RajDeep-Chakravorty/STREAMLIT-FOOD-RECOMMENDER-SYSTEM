@@ -5,10 +5,10 @@ from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
 
 header_image = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Header.png"
-st.image(header_image, width=200)
+st.image(header_image, width=200, use_column_width=True)
 st.title("Food Recommendation System")
 st.text("Let us help you with ordering")
-st.markdown("<img src='https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Deploy/foood.jpg' width=700>", unsafe_allow_html=True)
+st.markdown("<center><img src='https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Deploy/foood.jpg' width=700><\center>", unsafe_allow_html=True)
 
 st.subheader("Whats your preference?")
 vegn = st.radio("Vegetables or none!", ["veg", "non-veg"], index=1) 
