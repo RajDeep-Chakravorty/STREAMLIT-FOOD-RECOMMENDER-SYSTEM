@@ -4,11 +4,28 @@ import numpy as np
 from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
 
+# Display the decorative elements and the image with center alignment
+st.markdown("""
+    <style>
+        /* Define decorative element styles */
+        .decorative-element {
+            height: 50px;
+            background-color: #f0f0f0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Display decorative elements on both sides of the text
+st.markdown('<div class="decorative-element"></div>', unsafe_allow_html=True)
 header_image = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Header.png"
 st.markdown(f'<div style="display: flex; justify-content: center;"><img src="{header_image}" style="width: 200px; height: auto;"></div>', unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: red;'>Food Recommendation System</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: green;'>Let us help you with ordering</p>", unsafe_allow_html=True)
 st.markdown("<center><img src='https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Deploy/foood.jpg' width=700>", unsafe_allow_html=True)
+st.markdown('<div class="decorative-element"></div>', unsafe_allow_html=True)
+
 
 st.subheader("Whats your preference?")
 vegn = st.radio("Vegetables or none!", ["veg", "non-veg"], index=1) 
