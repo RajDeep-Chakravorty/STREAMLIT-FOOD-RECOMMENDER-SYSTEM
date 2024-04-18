@@ -34,11 +34,3 @@ $ pip install streamlit
 ```bash
 $ streamlit run app.py
 ```
-
-## Contributors
-
-<table>
-<tr align="center">
-
-
-<td>
