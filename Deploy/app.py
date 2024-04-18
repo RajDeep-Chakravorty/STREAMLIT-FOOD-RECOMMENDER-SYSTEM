@@ -7,7 +7,7 @@ header_image = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDE
 st.image(header_image, use_column_width=True)
 st.title("Food Recommendation System")
 st.text("Let us help you with ordering")
-st.image("https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/blob/main/Deploy/foood.jpg")
+st.image("https://raw.githubusercontent.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/blob/main/Deploy/foood.jpg")
 
 st.subheader("Whats your preference?")
 vegn = st.radio("Vegetables or none!", ["veg", "non-veg"], index=1) 
