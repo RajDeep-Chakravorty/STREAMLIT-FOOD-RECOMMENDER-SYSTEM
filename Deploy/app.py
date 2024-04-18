@@ -5,7 +5,7 @@ from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
 
 header_image = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Header.png"
-st.image(header_image, width=200)
+st.markdown(f'<div style="display: flex; justify-content: center;"><img src="{header_image}" style="width: 200px; height: auto;"></div>', unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: red;'>Food Recommendation System</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: green;'>Let us help you with ordering</p>", unsafe_allow_html=True)
 st.markdown("<center><img src='https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Deploy/foood.jpg' width=700>", unsafe_allow_html=True)
