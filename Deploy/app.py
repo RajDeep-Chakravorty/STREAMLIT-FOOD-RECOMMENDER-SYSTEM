@@ -4,6 +4,16 @@ import numpy as np
 from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
 
+# Define the content for the left sidebar
+with st.sidebar:
+    st.image("https://images.squarespace-cdn.com/content/v1/5e317990eb18e50e8fad59fb/1605645564491-JF40BQK8CK6IFFK5ZIVQ/SideBar-11.jpg")
+    # Add your sidebar content here
+
+# Define the content for the right sidebar
+with st.sidebar:
+    st.image("https://images.squarespace-cdn.com/content/v1/5e317990eb18e50e8fad59fb/1605645564491-JF40BQK8CK6IFFK5ZIVQ/SideBar-11.jpg")
+    # Add your sidebar content here
+
 header_image = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Header.png"
 st.markdown(f'<div style="display: flex; justify-content: center;"><img src="{header_image}" style="width: 200px; height: auto;"></div>', unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: red;'>Food Recommendation System</h1>", unsafe_allow_html=True)
