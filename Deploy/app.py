@@ -15,7 +15,7 @@ right_sidebar_image_url = "https://via.placeholder.com/150"
 # Define the content for the left sidebar
 left_sidebar_content = f"""
 <div style="position: fixed; left: 0; top: 0; height: 100%; width: 20%; background-color: #FFDAB9; padding: 0px;">
-    <img src="{left_sidebar_image_url}" alt="Left Sidebar Image" width="320" height="700" style="margin-left: 0;">
+    <img src="{left_sidebar_image_url}" alt="Left Sidebar Image" width="315" height="700" style="margin-left: 0;">
 </div>
 """
 st.markdown(left_sidebar_content, unsafe_allow_html=True)
