@@ -9,13 +9,13 @@ import streamlit as st
 
 # Define the URL for the images
 left_sidebar_image_url = "https://img.freepik.com/free-photo/lavash-doner-topped-with-melted-cheese-tomato_140725-44210.jpg?t=st=1713504172~exp=1713507772~hmac=5766e213c38efeac59a7034e0ed7a52aafb110a9f606e1df94f265c8d06f5f10&w=360"
-right_sidebar_image_url = "https://via.placeholder.com/150"
+right_sidebar_image_url = "https://img.freepik.com/free-photo/top-view-eid-al-fitr-celebration-with-delicious-food_23-2151205140.jpg?t=st=1713504885~exp=1713508485~hmac=8a34e9ddb564a29ec226b36cb52ed4d5f8837543a5e6de79235d405e4ce6ff8a&w=360"
 
 
 # Define the content for the left sidebar
 left_sidebar_content = f"""
 <div style="position: fixed; left: 0; top: 0; height: 100%; width: 20%; background-color: #FFDAB9; padding: 0px;">
-    <img src="{left_sidebar_image_url}" alt="Left Sidebar Image" width="305" height="700" style="margin-left: 0;">
+    <img src="{left_sidebar_image_url}" alt="Left Sidebar Image" width="310" height="700" style="margin-left: 0;">
 </div>
 """
 st.markdown(left_sidebar_content, unsafe_allow_html=True)
@@ -24,7 +24,7 @@ st.markdown(left_sidebar_content, unsafe_allow_html=True)
 # Define the content for the right sidebar
 right_sidebar_content = f"""
 <div style="position: fixed; right: 0; top: 0; height: 100%; width: 20%; background-color: #ADD8E6; padding: 20px;">
-    <img src="{right_sidebar_image_url}" alt="Right Sidebar Image">
+    <img src="{right_sidebar_image_url}" alt="Right Sidebar Image" width="310" height="700" style="margin-right: 0;">
 </div>
 """
 st.markdown(right_sidebar_content, unsafe_allow_html=True)
