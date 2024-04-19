@@ -5,7 +5,7 @@
 
 ## Preview
 ### The Project is Deployed at https://app-food-recommender-system.streamlit.app/
-![streamlit-app-2021-03-03-18-03-82]([https://user-images.githubusercontent.com/52796258/109809364-39908d00-7c4e-11eb-808e-4cc7773acfdb.gif](https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/blob/main/Food%20Recommendation%20System%20demo.gif))
+![streamlit-app-2021-03-03-18-03-82]([https://user-images.githubusercontent.com/52796258/109809364-39908d00-7c4e-11eb-808e-4cc7773acfdb.gif](https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/blob/main/Food%20Recommendation%20System%20demo.gif)
 ## Functionalities
 - [ ]  User can choose vegetarian/non-vegetarian options
 - [ ]  User can select from a variety of cuisines
