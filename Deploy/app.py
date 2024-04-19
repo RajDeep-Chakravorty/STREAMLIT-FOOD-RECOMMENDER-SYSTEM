@@ -6,35 +6,23 @@ from sklearn.neighbors import NearestNeighbors
 
 
 # Define the content for the left sidebar
-left_sidebar_content = st.sidebar.container()
-with left_sidebar_content:
-    st.image("https://images.squarespace-cdn.com/content/v1/5e317990eb18e50e8fad59fb/1605645564491-JF40BQK8CK6IFFK5ZIVQ/SideBar-11.jpg")
-    # Add your left sidebar content here
+left_sidebar_content = """
+<div style="position: fixed; left: 0; top: 0; height: 100%; width: 20%; background-color: #f0f0f0; padding: 20px;">
+    <h2>Left Sidebar Content</h2>
+    <p>This is the content for the left sidebar.</p>
+</div>
+"""
+st.markdown(left_sidebar_content, unsafe_allow_html=True)
 
 # Define the content for the right sidebar
-right_sidebar_content = st.sidebar.container()
-with right_sidebar_content:
-    st.image("https://images.squarespace-cdn.com/content/v1/5e317990eb18e50e8fad59fb/1605645564491-JF40BQK8CK6IFFK5ZIVQ/SideBar-11.jpg")
-    # Add your right sidebar content here
+right_sidebar_content = """
+<div style="position: fixed; right: 0; top: 0; height: 100%; width: 20%; background-color: #f0f0f0; padding: 20px;">
+    <h2>Right Sidebar Content</h2>
+    <p>This is the content for the right sidebar.</p>
+</div>
+"""
+st.markdown(right_sidebar_content, unsafe_allow_html=True)
 
-# Add CSS to position sidebars
-st.markdown("""
-    <style>
-        .sidebar .sidebar-content {
-            position: fixed;
-            top: 0;
-            height: 100vh;
-            overflow: auto;
-            padding-top: 20px;
-        }
-        .sidebar.-left .sidebar-content {
-            left: 0;
-        }
-        .sidebar.-right .sidebar-content {
-            right: 0;
-        }
-    </style>
-""", unsafe_allow_html=True)
 
 header_image = "https://github.com/RajDeep-Chakravorty/STREAMLIT-FOOD-RECOMMENDER-SYSTEM/raw/main/Header.png"
 st.markdown(f'<div style="display: flex; justify-content: center;"><img src="{header_image}" style="width: 200px; height: auto;"></div>', unsafe_allow_html=True)
