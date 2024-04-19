@@ -23,8 +23,8 @@ st.markdown(left_sidebar_content, unsafe_allow_html=True)
 
 # Define the content for the right sidebar
 right_sidebar_content = f"""
-<div style="position: fixed; right: 0; top: 0; height: 100%; width: 20%; background-color: #ADD8E6; padding: 20px;">
-    <img src="{right_sidebar_image_url}" alt="Right Sidebar Image" width="325" height="700" style="margin-right: 0;">
+<div style="position: fixed; right: 0; top: 0; height: 100%; width: 20%; background-color: #ADD8E6; padding: 0px;">
+    <img src="{right_sidebar_image_url}" alt="Right Sidebar Image" width="310" height="700" style="margin-right: 0;">
 </div>
 """
 st.markdown(right_sidebar_content, unsafe_allow_html=True)
