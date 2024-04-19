@@ -8,7 +8,7 @@ from sklearn.neighbors import NearestNeighbors
 import streamlit as st
 
 # Define the URL for the images
-left_sidebar_image_url = "https://via.placeholder.com/150"
+left_sidebar_image_url = "https://img.freepik.com/free-photo/lavash-doner-topped-with-melted-cheese-tomato_140725-44210.jpg?t=st=1713504172~exp=1713507772~hmac=5766e213c38efeac59a7034e0ed7a52aafb110a9f606e1df94f265c8d06f5f10&w=360"
 right_sidebar_image_url = "https://via.placeholder.com/150"
 
 
