@@ -14,25 +14,15 @@ right_sidebar_image_url = "https://via.placeholder.com/150"
 # Define the content for the left sidebar
 left_sidebar_content = f"""
 <div style="position: fixed; left: 0; top: 0; height: 100%; width: 20%; background-color: #f0f0f0; padding: 20px;">
-    <h2>Left Sidebar</h2>
     <img src="{left_sidebar_image_url}" alt="Left Sidebar Image">
 </div>
 """
 st.markdown(left_sidebar_content, unsafe_allow_html=True)
 
-# Define the content for the main section
-main_content = """
-<div style="margin-left: 20%; margin-right: 20%;">
-    <h1>Main Content</h1>
-    <p>This is the main content area.</p>
-</div>
-"""
-st.markdown(main_content, unsafe_allow_html=True)
 
 # Define the content for the right sidebar
 right_sidebar_content = f"""
 <div style="position: fixed; right: 0; top: 0; height: 100%; width: 20%; background-color: #f0f0f0; padding: 20px;">
-    <h2>Right Sidebar</h2>
     <img src="{right_sidebar_image_url}" alt="Right Sidebar Image">
 </div>
 """
