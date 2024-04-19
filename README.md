@@ -4,7 +4,7 @@
 </p>
 
 ## Preview
-### The Project is Deployed at https://foodrecomm.herokuapp.com/
+### The Project is Deployed at https://app-food-recommender-system.streamlit.app/
 ![streamlit-app-2021-03-03-18-03-82](https://user-images.githubusercontent.com/52796258/109809364-39908d00-7c4e-11eb-808e-4cc7773acfdb.gif)
 ## Functionalities
 - [ ]  User can choose vegetarian/non-vegetarian options
